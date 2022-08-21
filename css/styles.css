@@ -21,12 +21,18 @@
         sans-serif;
 }
 
+.body {
+    font-family: 'Roboto',sans-serif;
+    color: var(--grey-txt-clr);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
 
 .webt {
     font-family: var(--logo-font);
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         /* identical to box height */
     
         letter-spacing: 0.03em;
@@ -39,7 +45,7 @@
         font-family: var(--logo-font);
             font-weight: 700;
             font-size: 26px;
-            line-height: 31px;
+            line-height: 1.19;
             /* identical to box height */
         
             letter-spacing: 0.03em;
@@ -52,10 +58,9 @@
 }
 
 .studio {
-font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--dark-txt-clr);
     text-decoration: none;
@@ -66,10 +71,9 @@ font-family: var(--main-font);
 }
 
 .port {
-font-family: var(--main-font);
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--dark-txt-clr);
         text-decoration: none;
@@ -80,10 +84,9 @@ font-family: var(--main-font);
 }
 
 .cont {
-font-family: var(--main-font);
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--dark-txt-clr);
         text-decoration: none;
@@ -98,10 +101,9 @@ font-family: var(--main-font);
 }
 
 .mail {
-font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 color: var(--grey-txt-clr);
 text-decoration: none;
@@ -113,10 +115,9 @@ text-decoration: none;
 }
 
 .tel {
-font-family: var(--main-font);
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--grey-txt-clr);
         text-decoration: none;
@@ -133,10 +134,9 @@ font-family: var(--main-font);
 
 
 .view {
-    font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     /* or 136% */
 
     text-align: center;
@@ -146,10 +146,9 @@ font-family: var(--main-font);
 }
 
 .main-btn {
-        font-family: var(--main-font);
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.87;
         /* identical to box height, or 188% */
     
         display: flex;
@@ -176,10 +175,9 @@ font-family: var(--main-font);
 }
 
 .benefits-title {
-        font-family: var(--main-font);
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--dark-txt-clr);
@@ -187,10 +185,9 @@ font-family: var(--main-font);
 }
 
 .benefits-text {
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
 
     letter-spacing: 0.03em;
@@ -198,10 +195,9 @@ font-family: var(--main-font);
 }
 
 .images-title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-txt-clr);
@@ -221,20 +217,18 @@ background-color: var(--light-grey-clr);
 
 
 .person-team {
-font-family: var(--main-font);
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--dark-txt-clr);
 }
 
 .names {
-font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
 
     text-align: center;
@@ -243,10 +237,9 @@ font-family: var(--main-font);
 }
 
 .team-text {
-font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
 
     text-align: center;
@@ -262,7 +255,7 @@ background-color: var(--dark-grey-clr);
 font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -275,11 +268,10 @@ list-style: none;
 }
 
 .footer-text {
-font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -291,11 +283,10 @@ color: var(--main-clr);
 }
 
 .footer-mail {
-font-family: var(--main-font);
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -308,11 +299,10 @@ font-family: var(--main-font);
 }
 
 .footer-tel {
-font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -336,11 +326,9 @@ font-family: var(--main-font);
     cursor: pointer;
     background-color: var(--light-grey-clr);
     border: 0;
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -362,17 +350,15 @@ font-family: var(--main-font);
 }
 
 .port-titles {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(36 / 18);
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .port-text {
-    font-family: var(--main-font);
     font-size: 16px;
-    line-height: calc(30 / 16);
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--grey-txt-clr);
 }
