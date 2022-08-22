@@ -66,6 +66,10 @@
     text-decoration: none;
 }
 
+.studio.current {
+    color: var(--main-clr);
+}
+
 .studio:hover {
     color: var(--main-clr);
 }
@@ -77,6 +81,10 @@
         letter-spacing: 0.02em;
         color: var(--dark-txt-clr);
         text-decoration: none;
+}
+
+.port.current {
+    color: var(--main-clr);
 }
 
 .port:hover {
@@ -328,6 +336,7 @@ color: var(--main-clr);
     border: 0;
     font-weight: 500;
     font-size: 16px;
+    font-family: inherit;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
@@ -347,6 +356,7 @@ color: var(--main-clr);
 .port-link:focus {
     text-decoration: none;
     color: inherit;
+    color: var(--dark-txt-clr);
 }
 
 .port-titles {
@@ -360,5 +370,5 @@ color: var(--main-clr);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--grey-txt-clr);
+    color: var(--grey-txt-clr)
 }
